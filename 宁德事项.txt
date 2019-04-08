@@ -1,0 +1,25 @@
+更改配置脚本
+value="winrdlv3"   ipguard 进程
+
+1.测试端口58.215.235.218  8999     外网  nettrafic 
+    1.1.如果不通 ----> 联系 王韩虎
+        simpleWall关闭策略同步5分钟，再测试，如果不通申请开通8999端口
+        
+
+2. 新装机16台
+
+3. 测试simpleWall  netlimit  nettraffic
+
+老机器：
+1，替换新版tracfficmonitor，设为开机自启动
+2，如果8999不通，关闭simplewall几分钟后再开启（用于同步ipguard策略）；
+3，检查文件是否手动删除，是否有遗留；
+4，检查三个安全软件是否正常运行，特别是smiplewall的配置；
+5，检查netlimiter的traffic statics查看为winrdlv3流量是否有异常；如果不能确定，则检查networkusageView,选择
+from any time，是否有特别大的流量，若有则记录电脑、用户名称；
+6，检查是否有异常程序
+
+
+关于电脑储藏柜和电脑硬件管理--欧阳 or 占思丰
+
+
